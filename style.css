@@ -22,9 +22,11 @@ ul {
 }
 
 .jake {
-    position: relative;
-    left: 100px;
+    text-align: center;
 }
+/* hilarious! Turns out you can use a <p> element to designate an 
+enclosed <img> element as text and format it using text tools. */
+
 .tpic {
     list-style: none;
 }
@@ -39,9 +41,12 @@ ul {
     bottom: 172px;
     left: 298px;
 }
+/* position renders differently according to window width;
+find a better solution (consider: column, list, position) */
+
 .scramble {
     position: relative;
-    top: 20px;
+    top: 18px;
 }
 
 .spice {
