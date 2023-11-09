@@ -1,0 +1,58 @@
+body {
+    background-color: hsl(350, 40%, 80%);
+}
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+    background-color: blanchedalmond;
+    font-family: serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.body {
+    background-color: hsl(30, 40%, 80%);
+}
+
+.jake {
+    position: relative;
+    left: 100px;
+}
+.tpic {
+    list-style: none;
+}
+
+.tlist {
+    list-style-position: inside;
+    column-count: 3;
+}
+
+.tofu {
+    position: relative;
+    bottom: 172px;
+    left: 298px;
+}
+.scramble {
+    position: relative;
+    top: 20px;
+}
+
+.spice {
+    color: hsl(30, 95%, 45%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+.vegetable {
+    color: hsl(120, 95%, 30%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
