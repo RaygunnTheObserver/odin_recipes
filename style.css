@@ -13,6 +13,12 @@ h4 {
     text-align: center;
 }
 
+a {
+    border: 2px solid black;
+    padding: 3px;
+    margin: 5px
+}
+
 ul {
     list-style-type: circle;
 }
@@ -40,21 +46,27 @@ enclosed <img> element as text and format it using text rules. */
 }
 
 .ilist {
-    list-style-position: inside;
 }
 
 .tpic {
     list-style: none;
+    padding: 5px;
 }
 
 .tofu {
 }
-/* position renders differently according to window width;
+/* !solved! position renders differently according to window width;
 goal is to have the (list item) link directly above the corresponding
 image with one recipe per column. (consider: column, list, position...
 there is probably a grid or table property I can use) */
+/* solution: display: flex; + nested <ul>'s */
 
 .scramble {
+}
+
+.pad {
+    padding-right: 40px;
+    margin-right: 32px;
 }
 
 .spice {
