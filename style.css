@@ -25,28 +25,36 @@ ul {
     text-align: center;
 }
 /* hilarious! Turns out you can use a <p> element to designate an 
-enclosed <img> element as text and format it using text tools. */
+enclosed <img> element as text and format it using text rules. */
+
+.null {
+    list-style: none;
+}
+
+.tlist {
+    display: flex;
+    list-style-position: inside;
+    justify-content: space-between;
+    margin-inline: 2rem;
+    padding-inline: 40px;
+}
+
+.ilist {
+    list-style-position: inside;
+}
 
 .tpic {
     list-style: none;
 }
 
-.tlist {
-    list-style-position: inside;
-    column-count: 3;
-}
-
 .tofu {
-    position: relative;
-    bottom: 172px;
-    left: 298px;
 }
 /* position renders differently according to window width;
-find a better solution (consider: column, list, position) */
+goal is to have the (list item) link directly above the corresponding
+image with one recipe per column. (consider: column, list, position...
+there is probably a grid or table property I can use) */
 
 .scramble {
-    position: relative;
-    top: 18px;
 }
 
 .spice {
