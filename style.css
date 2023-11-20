@@ -13,6 +13,7 @@ p {
 
 img {
     border-radius: 30px;
+    box-shadow: 2px 2px 3px;
 }
 
 h4 {
@@ -26,6 +27,10 @@ button {
     background-color: hsl(215, 49%, 59%);
     border-radius: 12px;
     padding: 6px 12px;
+}
+
+button:hover {
+    background-color: hsl(215, 69%, 45%);
 }
 
 a {
@@ -54,10 +59,19 @@ code {
     margin: 20px auto;
 }
 
+.decor {
+    display: flex;
+}
+
+.letter {
+    box-shadow: none;
+    width: 160px;
+    margin: 0 auto 8px;
+}
+
 .jake {
     width: 480px;
-    margin: 0 auto;
-    margin-bottom: 8px;
+    margin: 0 auto 8px;
 }
 /* hilarious! Turns out you can use a <p> element to designate an 
 enclosed <img> element as text and position it using text-align. */
@@ -81,6 +95,10 @@ auto */
 }
 
 .null {
+    background-color: hsl(355, 65%, 30%);
+    border-radius: 30px;
+    border: 5px solid black;
+    padding: 16px;
     list-style: none;
 }
 
@@ -109,11 +127,6 @@ there is probably a grid or table property I can use) */
 /* solution: display: flex; + nested <ul>'s */
 
 .scramble {
-}
-
-.pad {
-    padding-right: 40px;
-    margin-right: 32px;
 }
 
 .spice {
