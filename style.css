@@ -1,9 +1,18 @@
 body {
-    background-color: hsl(350, 40%, 80%);
+    background-color: hsl(30, 40%, 80%);
 }
 
 h1 {
     text-align: center;
+}
+
+p {
+    text-align: center;
+    margin: 0 auto;
+}
+
+img {
+    border-radius: 30px;
 }
 
 h4 {
@@ -13,28 +22,54 @@ h4 {
     text-align: center;
 }
 
+button {
+    background-color: hsl(215, 49%, 59%);
+    border-radius: 12px;
+    padding: 6px 12px;
+}
+
 a {
-    border: 2px solid black;
-    padding: 3px;
-    margin: 5px
 }
 
 ul {
-    list-style-type: circle;
+    padding: 0;
+}
+
+code {
+    display: inline-block;
+    margin-bottom: 8px;
 }
 
 .body {
-    background-color: hsl(30, 40%, 80%);
+    
+}
+
+.card {
+    width: 1200px;
+    background-color: hsl(350, 40%, 80%);
+    border: 2px solid black;
+    border-radius: 30px;
+    box-shadow: 4px 2px 6px 2px rgba(0, 0, 0, .5),
+                -2px -2px 4px rgba(0, 0, 0, .5);
+    margin: 20px auto;
 }
 
 .jake {
-    text-align: center;
+    width: 480px;
+    margin: 0 auto;
+    margin-bottom: 8px;
 }
 /* hilarious! Turns out you can use a <p> element to designate an 
-enclosed <img> element as text and format it using text rules. */
+enclosed <img> element as text and position it using text-align. */
+/* you can also center a box by declaring right/left margins as
+auto */
 
-.null {
-    list-style: none;
+.list-card {
+    background: hsl(30, 40%, 80%);
+    width: 1000px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin: 8px auto;
 }
 
 .tlist {
@@ -45,7 +80,19 @@ enclosed <img> element as text and format it using text rules. */
     padding-inline: 40px;
 }
 
+.null {
+    list-style: none;
+}
+
 .ilist {
+}
+
+.titem {
+    list-style: none;
+    text-align: center;
+    padding: 4px;
+    border-radius: 15px;
+    ;
 }
 
 .tpic {
