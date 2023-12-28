@@ -6,7 +6,7 @@ h1 {
     text-align: center;
 }
 
-p {
+.explain {
     text-align: center;
     margin: 0 auto;
 }
@@ -14,6 +14,15 @@ p {
 img {
     border-radius: 30px;
     box-shadow: 2px 2px 3px;
+    margin: 0 auto 8px;
+}
+
+.img {
+    display:flex;
+}
+
+h3 {
+    text-align:center;
 }
 
 h4 {
@@ -40,6 +49,15 @@ ul {
     padding: 0;
 }
 
+ol {
+    width: 350px;
+    margin: 16px auto 16px;
+}
+
+.center {
+    text-align: center;
+}
+
 code {
     display: inline-block;
     margin-bottom: 8px;
@@ -57,6 +75,10 @@ code {
     box-shadow: 4px 2px 6px 2px rgba(0, 0, 0, .5),
                 -2px -2px 4px rgba(0, 0, 0, .5);
     margin: 20px auto;
+}
+
+.centered {
+    text-align: center;
 }
 
 .decor {
@@ -90,16 +112,16 @@ auto */
     display: flex;
     list-style-position: inside;
     justify-content: space-between;
-    margin-inline: 2rem;
     padding-inline: 40px;
+    margin-inline: 2rem;
 }
 
 .null {
     background-color: hsl(355, 65%, 30%);
-    border-radius: 30px;
-    border: 5px solid black;
-    padding: 16px;
     list-style: none;
+    padding: 16px;
+    border: 5px solid black;
+    border-radius: 30px;
 }
 
 .ilist {
@@ -141,3 +163,22 @@ there is probably a grid or table property I can use) */
     font-weight: 500;
 }
 
+.subhead {
+    text-align: center;
+
+}
+
+.ingredients {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+
+.checklist {
+    list-style-type: none;
+    width: 150px;
+}
+
+.bulk {
+}

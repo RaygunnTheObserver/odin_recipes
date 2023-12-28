@@ -8,9 +8,11 @@
 
     <body>
         <h1>Italian Pasta Sauce</h1>
-        <img src="../images/sauce.webp"
-        alt="chopped vegetables in a pot of crushed tomato"
-        width="500">
+        <div class="img">
+            <img src="../images/sauce.webp"
+            alt="chopped vegetables in a pot of crushed tomato"
+            width="500">
+        </div>
         <h3>Hearty Tomato Vegetable Pasta Sauce</h3>
         <p>This is a recipe I've just kind of intuitively improvised over time
             and without reference to anything.</p>
@@ -19,26 +21,35 @@
             basically size the ingredients list proportionally to the size of the
             largest pot at my disposal</p>
         <h4>Ingredients</h4>
-        <ul>
-            <li><ul>spices
-                  <li class="spice">basil</li>
-                  <li class="spice">oregano</li>
-                  <li class="spice">parsley</li>
-                  <li class="spice">garlic</li>
-                  <li class="spice">more garlic</li>
-                  <li class="spice">salt</li>
+        <ul class="ingredients">
+            <li><p class="subhead"><strong>Spices</strong></p>
+                <ul class="spice checklist">
+                  <li><input type="checkbox">basil</li>
+                  <li><input type="checkbox">oregano</li>
+                  <li><input type="checkbox">parsley</li>
+                  <li><input type="checkbox">garlic</li>
+                  <li><input type="checkbox">more garlic</li>
+                  <li><input type="checkbox">salt</li>
                 </ul>
             </li>
-            <li>green lentils</li>
-            <li>butter</li>
-            <li class="vegetable">mushroom</li>
-            <li class="vegetable">carrot</li>
-            <li class="vegetable">celery</li>
-            <li class="vegetable">yellow bell pepper</li>
-            <li>crushed tomatoes</li>
-            <li>diced tomatoes</li>
-            <li class="vegetable">zucchini</li>
-            <li class="vegetable">spinach</li>
+            <li><p class="subhead"><strong>Vegetables</strong></p>
+                <ul class="vegetable checklist">
+                    <li><input type="checkbox">mushroom</li>
+                    <li><input type="checkbox">carrot</li>
+                    <li><input type="checkbox">celery</li>
+                    <li><input type="checkbox">yellow bell pepper</li>
+                    <li><input type="checkbox">zucchini</li>
+                    <li><input type="checkbox">spinach</li>
+                </ul>
+            </li>
+            <li><p class="subhead"><strong>Base Ingredients</strong></p>
+                <ul class="checklist">
+                    <li><input type="checkbox">green lentils</li>
+                    <li><input type="checkbox">butter</li>
+                    <li><input type="checkbox">crushed tomatoes</li>
+                    <li><input type="checkbox">diced tomatoes</li>
+                </ul>
+            </li>
         </ul>
         <h4>Steps</h4>
         <ol>
