@@ -122,9 +122,7 @@ auto */
     padding: 16px;
     border: 5px solid black;
     border-radius: 30px;
-}
-
-.ilist {
+    width: 210px;
 }
 
 .titem {
@@ -140,16 +138,12 @@ auto */
     padding: 5px;
 }
 
-.tofu {
-}
 /* !solved! position renders differently according to window width;
 goal is to have the (list item) link directly above the corresponding
 image with one recipe per column. (consider: column, list, position...
 there is probably a grid or table property I can use) */
 /* solution: display: flex; + nested <ul>'s */
 
-.scramble {
-}
 
 .spice {
     color: hsl(30, 95%, 45%);
